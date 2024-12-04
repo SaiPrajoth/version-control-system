@@ -4,7 +4,7 @@ a simple version control system written with DSA concepts with cpp as core
 ## How to Run the Project
 
 ### Prerequisites
-- C++ compiler (e.g., g++, clang++).
+- A C++17-compatible compiler (e.g., g++ 7 or later, clang++ 5 or later).
 - Basic familiarity with compiling and running C++ programs from the command line.
 
 ### Steps
@@ -15,9 +15,9 @@ a simple version control system written with DSA concepts with cpp as core
     cd project
     ```
 
-2. **Compile the code**:
+2. **Compile the code with C++17 standard**:
     ```bash
-    g++ -o vcs main.cpp
+    g++ -std=c++17 -o vcs main.cpp
     ```
 
 3. **Run the program**:
