@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This project is a lightweight, custom-built Version Control System (VCS) that replicates basic Git-like features. It enables users to manage branches, create commits, view commit logs, and revert changes. The system is entirely built using C++ and employs core programming concepts such as linked lists and object-oriented design.
-
-The project demonstrates the inner workings of a version control system, providing users and developers a stepping stone for deeper exploration into more complex version control frameworks.
+We have built a simple version control systems using the first principle and optimization concepts in Data Structures and Algorithms. The system is built with cpp as core code
 
 ## Architecture
 
