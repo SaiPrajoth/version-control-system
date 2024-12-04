@@ -60,7 +60,7 @@ int main() {
             vcsInit();
         } else if (command == "createBranch") {
             if (!masterBranch) {
-                std::cout << "Please initialize the VCS with `vcsInit()` first.\n";
+                std::cout << "Please initialize the VCS with `vcsInit` first.\n";
                 continue;
             }
             std::string branchName;
@@ -71,7 +71,7 @@ int main() {
             std::cout << "Branch created: " << branchName << "\n";
         } else if (command == "switchBranch") {
             if (!masterBranch) {
-                std::cout << "Please initialize the VCS with `vcsInit()` first.\n";
+                std::cout << "Please initialize the VCS with `vcsInit` first.\n";
                 continue;
             }
             std::string branchName;
@@ -120,7 +120,7 @@ int main() {
             std::cout << "Exiting...\n";
             break;
         } else {
-            std::cout << "Unknown command. Type `help()` for a list of commands.\n";
+            std::cout << "Unknown command. Type `help` for a list of commands.\n";
         }
     }
 
