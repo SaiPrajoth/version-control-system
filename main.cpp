@@ -46,7 +46,7 @@ void vcsInit() {
 int main() {
     std::string input;
 
-    std::cout << "Welcome to the Version Control System. Type `help()` for a list of commands.\n";
+    std::cout << "Welcome to the Version Control System. Type `help` for a list of commands.\n";
 
     while (true) {
         std::cout << "> ";
