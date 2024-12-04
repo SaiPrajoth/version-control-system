@@ -1,4 +1,4 @@
-# Version Control System (VCS) Framework
+# Version Control System (VCS)
 
 ## Introduction
 
